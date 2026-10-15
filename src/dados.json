@@ -1,0 +1,196 @@
+{
+  "geradoEm": "2026-10-15T14:18:12.493Z",
+  "gerador": "Gato Negro — Central de Agentes",
+  "demo": false,
+  "slug": "legado-barbearia",
+  "tema": "modelo",
+  "negocio": {
+    "nome": "Legado Barbearia",
+    "categoria": "barbearia",
+    "endereco": "Em frente a pracinha - Av: das comunicações, 2267 - Teixeirão, Cacoal - RO, 76965-674, Brasil",
+    "telefone": "+55 69 99948-9819",
+    "whatsapp": "https://wa.me/5569999489819",
+    "instagram": null,
+    "maps": "https://www.google.com/maps/search/?api=1&query=Legado%20Barbearia&query_place_id=ChIJNR0KihEvyJMRxtpYeSTAchg",
+    "rating": 5,
+    "avaliacoes": 59,
+    "placeId": "ChIJNR0KihEvyJMRxtpYeSTAchg"
+  },
+  "imagens": [
+    {
+      "arquivo": "/fotos/foto-1.jpg",
+      "nomeOriginal": "https://lh3.googleusercontent.com/grass-cs/AABkmLeW2EMO5iX7eb5S0NOvkLBqT3UYhZvqmQaGVFlsXj3yaOkl0mRuSEaZu7o83oUQ6RDkUkS5y9wAWSyv31i9zCv2epncqIdFzX5yabxoYlkVHVnlCa85yWmAHNwptA3OiEC0IVhVjQ=w1200-h900-k-no",
+      "link": "https://lh3.googleusercontent.com/grass-cs/AABkmLeW2EMO5iX7eb5S0NOvkLBqT3UYhZvqmQaGVFlsXj3yaOkl0mRuSEaZu7o83oUQ6RDkUkS5y9wAWSyv31i9zCv2epncqIdFzX5yabxoYlkVHVnlCa85yWmAHNwptA3OiEC0IVhVjQ=w1200-h900-k-no"
+    },
+    {
+      "arquivo": "/fotos/foto-2.jpg",
+      "nomeOriginal": "https://lh3.googleusercontent.com/grass-cs/AABkmLfxLEUxDETU6h_nc_JP9Y9YE7UEhnXZ4F0vDZPnuNylWi0DatHJy77iLNjocN2I26-GBTCW-QYvSXBX224NJDe7ln5dFK3HA8wMph-ws1K9BzU91ggbp46fYAfmWoUTfgYWuD-y=w1200-h900-k-no",
+      "link": "https://lh3.googleusercontent.com/grass-cs/AABkmLfxLEUxDETU6h_nc_JP9Y9YE7UEhnXZ4F0vDZPnuNylWi0DatHJy77iLNjocN2I26-GBTCW-QYvSXBX224NJDe7ln5dFK3HA8wMph-ws1K9BzU91ggbp46fYAfmWoUTfgYWuD-y=w1200-h900-k-no"
+    },
+    {
+      "arquivo": "/fotos/foto-3.jpg",
+      "nomeOriginal": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qk_OQ7LXP8bJo-r3LkFvknDF-OwGI-b61iwQUci0PkCsCDtvWQI2l_OTOLluTGTiMTn7f1Difqi9BBCuhZm0L9hp1ijXqckzbl7ozzB-aP4EmRqC6PmehC9JecWkna5-dD81uu=w1200-h900-k-no",
+      "link": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qk_OQ7LXP8bJo-r3LkFvknDF-OwGI-b61iwQUci0PkCsCDtvWQI2l_OTOLluTGTiMTn7f1Difqi9BBCuhZm0L9hp1ijXqckzbl7ozzB-aP4EmRqC6PmehC9JecWkna5-dD81uu=w1200-h900-k-no"
+    },
+    {
+      "arquivo": "/fotos/foto-4.jpg",
+      "nomeOriginal": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Std-gkNf5mpEQiMaggP4ZMVEbSvH1m5YEfRsO0C9IM9R1WivOI4abUusahKMAd9qNpKmtpXoCR8JHCLTdvD7VSkMX_85fg3YHSMNIwa4en_thxPIsWODky_gr_Ubp7gbKpuPSkA7hsMO4=w1200-h900-k-no",
+      "link": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Std-gkNf5mpEQiMaggP4ZMVEbSvH1m5YEfRsO0C9IM9R1WivOI4abUusahKMAd9qNpKmtpXoCR8JHCLTdvD7VSkMX_85fg3YHSMNIwa4en_thxPIsWODky_gr_Ubp7gbKpuPSkA7hsMO4=w1200-h900-k-no"
+    },
+    {
+      "arquivo": "/fotos/foto-5.jpg",
+      "nomeOriginal": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TpTdcbY7Ap3orGjtuBODiBmlmQmgwZqW3NZSA2OQcEc5egPHZGN-h6zGQj0FU_Owx7021wN7sjgDV6iQ0BJv99_0p-bAslOPPV02ElhmVrRbyBQZvSmJMRZ2C97UYZstqLurYgZQ=w1200-h900-k-no",
+      "link": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TpTdcbY7Ap3orGjtuBODiBmlmQmgwZqW3NZSA2OQcEc5egPHZGN-h6zGQj0FU_Owx7021wN7sjgDV6iQ0BJv99_0p-bAslOPPV02ElhmVrRbyBQZvSmJMRZ2C97UYZstqLurYgZQ=w1200-h900-k-no"
+    },
+    {
+      "arquivo": "/fotos/foto-6.jpg",
+      "nomeOriginal": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tsn6NblgaRENyS7R0HdQKJ3ioBu0h9C77W0oz2oDqFxw-QvHrVAYyv1qWLFa2iOboPdEmuggXSnw76ElUJhH3e6W2Xvb5eCLjqKFL8ZB4JLfyrurYVqUM0o9hGNH92ed8uhhWaYx5Ogq9v=w1200-h900-k-no",
+      "link": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tsn6NblgaRENyS7R0HdQKJ3ioBu0h9C77W0oz2oDqFxw-QvHrVAYyv1qWLFa2iOboPdEmuggXSnw76ElUJhH3e6W2Xvb5eCLjqKFL8ZB4JLfyrurYVqUM0o9hGNH92ed8uhhWaYx5Ogq9v=w1200-h900-k-no"
+    },
+    {
+      "arquivo": "/fotos/foto-7.jpg",
+      "nomeOriginal": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SYfct1NCBqQTGSiyfanLzPVuEw-ITlNYLKcmWcWbcbR91DRPKuqxrt7wzY76HBFSztOATXJ9Av_kgCxSDUXgCZAEORtSfrTh8pv5Gxl0gOQ0EcqxyyM5UB0s9mZUnaWOdBqaX7I-Mk81OS=w1200-h900-k-no",
+      "link": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SYfct1NCBqQTGSiyfanLzPVuEw-ITlNYLKcmWcWbcbR91DRPKuqxrt7wzY76HBFSztOATXJ9Av_kgCxSDUXgCZAEORtSfrTh8pv5Gxl0gOQ0EcqxyyM5UB0s9mZUnaWOdBqaX7I-Mk81OS=w1200-h900-k-no"
+    },
+    {
+      "arquivo": "/fotos/foto-8.jpg",
+      "nomeOriginal": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RoDCymq7WK1MTi65DYG1lxYDa5dx5cIn5aavBkFj9BYFLKZt6039c0jjM0ky8UNI0Ca57bGi3goVmtzpx38ErkufBhAINOU27BxsxgO2fqHAfM2mILxtxyWyJDgM5UJStogsIY=w1200-h900-k-no",
+      "link": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RoDCymq7WK1MTi65DYG1lxYDa5dx5cIn5aavBkFj9BYFLKZt6039c0jjM0ky8UNI0Ca57bGi3goVmtzpx38ErkufBhAINOU27BxsxgO2fqHAfM2mILxtxyWyJDgM5UJStogsIY=w1200-h900-k-no"
+    }
+  ],
+  "prints": [],
+  "conteudo": {
+    "sobre": "Legado Barbearia é uma barbearia para quem gosta de sair bem cuidado: corte, barba e acabamento com atenção aos detalhes.",
+    "servicos": [
+      "Corte masculino",
+      "Barba",
+      "Corte + barba",
+      "Pigmentação",
+      "Sobrancelha",
+      "Corte infantil"
+    ],
+    "diferenciais": [
+      "Ambiente pensado para o cliente relaxar",
+      "Acabamento caprichado na navalha",
+      "Horário marcado pelo WhatsApp"
+    ],
+    "passos": [
+      "Chame a gente no WhatsApp",
+      "Combine o melhor dia e horário",
+      "Venha até nós"
+    ],
+    "faq": [
+      {
+        "p": "Como faço para agendar ou pedir?",
+        "r": "É só chamar no WhatsApp pelo botão desta página."
+      },
+      {
+        "p": "Onde vocês ficam?",
+        "r": "Em frente a pracinha - Av: das comunicações, 2267 - Teixeirão, Cacoal - RO, 76965-674, Brasil. O mapa está logo abaixo."
+      },
+      {
+        "p": "Vocês têm avaliações?",
+        "r": "Sim: nota 5 no Google, com 59 avaliações."
+      }
+    ],
+    "sugerido": [
+      "sobre",
+      "servicos",
+      "diferenciais",
+      "passos",
+      "faq"
+    ]
+  },
+  "efeitos": true,
+  "hero": "agua",
+  "galeria": "uniforme",
+  "modelo": {
+    "fonte": "Castor (direção de arte)",
+    "url": null,
+    "estilo": {
+      "esquema": "escuro",
+      "fonte": "Outfit",
+      "cores": {
+        "fundo": "#121212",
+        "texto": "#F5F5F4",
+        "primaria": "#C9A227",
+        "fundoAlt": "#1A1A1A",
+        "cartao": "rgba(255,255,255,0.04)",
+        "borda": "rgba(255,255,255,0.10)"
+      }
+    },
+    "design": {
+      "paleta_cores": {
+        "fundo": "#121212",
+        "fundo_alternado": "#1A1A1A",
+        "texto": "#F5F5F4",
+        "texto_suave": "rgba(255,255,255,0.72)",
+        "destaque": "#C9A227",
+        "borda": "rgba(255,255,255,0.10)",
+        "cartao": "rgba(255,255,255,0.04)"
+      },
+      "fontes_google": [
+        "Outfit",
+        "Inter"
+      ],
+      "estrutura_secoes": [
+        {
+          "secao": "hero",
+          "estilo": "Tela cheia com a foto real (/fotos/foto-1.jpg) e overlay gradiente escuro por cima; headline enorme em negrito com tracking-tight; frase curta de valor; CTA grande \"Agendar pelo WhatsApp\"."
+        },
+        {
+          "secao": "numeros",
+          "estilo": "Nota e número de avaliações reais do Google, cidade e horário — contadores grandes."
+        },
+        {
+          "secao": "sobre",
+          "estilo": "Texto editorial grande ao lado de uma foto vertical arredondada."
+        },
+        {
+          "secao": "diferenciais",
+          "estilo": "Faixa de fundo alternado; cards flutuantes de vidro (rounded-2xl, border-white/10, backdrop-blur)."
+        },
+        {
+          "secao": "servicos",
+          "estilo": "Grid moderno de cards (2 colunas no celular grande, 3 no computador), cada card leva ao WhatsApp."
+        },
+        {
+          "secao": "galeria",
+          "estilo": "Fotos reais em grade uniforme ou mosaico (bento), cantos arredondados."
+        },
+        {
+          "secao": "prova_social",
+          "estilo": "Faixa alternada com as avaliações reais do Google (carrossel) ou a nota + botão \"Ver avaliações no Google\". Nunca inventar depoimento."
+        },
+        {
+          "secao": "contato",
+          "estilo": "Chamada final gigante, endereço claro, mapa e botão \"Como chegar (Google Maps)\"."
+        },
+        {
+          "secao": "whatsapp_flutuante",
+          "estilo": "Botão fixo verde no canto inferior direito."
+        }
+      ],
+      "identidade": "Escuro e imponente, destaque dourado envelhecido"
+    }
+  },
+  "aprovadoEm": "2026-10-15T14:22:49.992Z",
+  "referencias": [
+    {
+      "titulo": "21st.dev — componentes React animados (seções, cards, hero)",
+      "url": "https://21st.dev",
+      "fonte": "21st.dev"
+    },
+    {
+      "titulo": "GSAP — animações de entrada, rolagem e cursor",
+      "url": "https://gsap.com",
+      "fonte": "gsap.com"
+    },
+    {
+      "titulo": "Code Eagle — 600+ componentes e páginas completas (Next.js)",
+      "url": "https://www.nextcodeeagle.com",
+      "fonte": "nextcodeeagle.com"
+    }
+  ],
+  "cursos": []
+}
