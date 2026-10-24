@@ -52,7 +52,7 @@ Variáveis de ambiente (Production e Preview). Os **valores** ficam só no dashb
 
 Sem `PINGUIM_USER` e `PINGUIM_PASSWORD` a função responde 503 e não abre a página.
 
-Entrypoint: `app.py` na raiz do projeto Vercel (a pasta `pinguim/` do git), variável `app` (FastAPI). A Vercel publica o app inteiro como uma função Python. Não há pasta `api/`: um arquivo lá viraria função legada separada e não serviria esta UI. `vercel.json` aponta `maxDuration` e os arquivos estáticos para `app.py`.
+Entrypoint: `app.py` na raiz do projeto Vercel (a pasta `pinguim/` do git), variável `app` (FastAPI). `vercel.json` usa o builder `@vercel/python` (`builds`) e manda todo request para `app.py` (`routes`). `includeFiles` empacota `static/` e `data/`; `maxDuration` é 60. A chave `functions` não entra: no deploy por Git ela só casa arquivos dentro de `api/`, e `app.py` na raiz faz o build falhar com `unused_function`.
 
 `maxDuration` está em 60 segundos. A busca em si para por volta de 40 segundos e devolve o que já tiver (JSON), em vez de esperar o Overpass estourar o limite da função. Overpass usa `timeout:8` e no máximo ~10 s por espelho. A checagem de domínio é opcional e, quando ligada, cabe em cerca de 8 segundos e em no máximo 8 comércios sem site.
 
