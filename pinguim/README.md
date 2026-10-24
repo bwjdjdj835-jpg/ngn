@@ -1,6 +1,6 @@
 # 🐧 Pinguim — comércios sem site (Google Places + OpenStreetMap)
 
-Busca comércios locais e marca quem não tem site. A fonte primária é a Google Places API (New); o OpenStreetMap entra como complemento e como fallback. A interface e a API usam HTTP Basic Auth.
+Busca comércios locais e marca quem não tem site. A fonte primária é a Google Places API (New); o OpenStreetMap entra como complemento e como fallback. A página e a API abrem sem login.
 
 Este app fica só na pasta `pinguim/`. O site Legado Barbearia (GitHub Pages a partir da `main`) não faz parte daqui.
 
@@ -11,14 +11,12 @@ cd pinguim
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 export GOOGLE_PLACES_API_KEY="sua-chave"   # opcional: sem ela a busca usa só OSM
-export PINGUIM_USER="usuario"
-export PINGUIM_PASSWORD="senha"
 .venv/bin/uvicorn app:app --host 0.0.0.0 --port 8010
 ```
 
-Abra http://localhost:8010 . O navegador pede o usuário e a senha das variáveis acima.
+Abra http://localhost:8010 . Não há usuário nem senha.
 
-Não use arquivo `.senha` e não commite `.env`. O exemplo vazio está em `.env.example`.
+Não commite `.env`. O exemplo vazio está em `.env.example`.
 
 API:
 
@@ -44,13 +42,11 @@ No dashboard do projeto:
 | Install Command | vazio (a Vercel instala `requirements.txt`) |
 | Python | 3.12 (arquivo `.python-version`) |
 
-Variáveis de ambiente (Production e Preview). Os **valores** ficam só no dashboard:
+Variável de ambiente (Production e Preview). O **valor** fica só no dashboard:
 
 - `GOOGLE_PLACES_API_KEY` — Places API (New). Sem ela a busca ainda roda pelo OSM e registra o aviso.
-- `PINGUIM_USER` — usuário do HTTP Basic Auth.
-- `PINGUIM_PASSWORD` — senha do HTTP Basic Auth.
 
-Sem `PINGUIM_USER` e `PINGUIM_PASSWORD` a função responde 503 e não abre a página.
+Não há login. `PINGUIM_USER` e `PINGUIM_PASSWORD` não são lidas.
 
 Entrypoint: `app.py` na raiz do projeto Vercel (a pasta `pinguim/` do git), variável `app` (FastAPI). `vercel.json` usa o builder `@vercel/python` (`builds`) e manda todo request para `app.py` (`routes`). `includeFiles` empacota `static/` e `data/`; `maxDuration` é 60. A chave `functions` não entra: no deploy por Git ela só casa arquivos dentro de `api/`, e `app.py` na raiz faz o build falhar com `unused_function`.
 

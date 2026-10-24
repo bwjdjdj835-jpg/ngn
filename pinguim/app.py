@@ -1,19 +1,17 @@
 """Pinguim — encontra comércios locais sem site (Google Places + OpenStreetMap).
 
 Deploy na Vercel (root directory `pinguim/`):
-- segredo de Basic Auth em PINGUIM_USER / PINGUIM_PASSWORD (não lê .senha)
 - chave do Google em GOOGLE_PLACES_API_KEY
+- a interface e a API são públicas (sem login)
 - resultados novos em /tmp/pinguim (o filesystem da função é somente leitura)
 - amostras versionadas continuam em data/ e são só leitura
 """
 import asyncio
-import base64
 import datetime
 import json
 import os
 import pathlib
 import re
-import secrets
 import time
 import unicodedata
 from urllib.parse import quote_plus
@@ -21,8 +19,8 @@ from urllib.parse import quote_plus
 import dns.asyncresolver
 import dns.resolver
 import httpx
-from fastapi import FastAPI, Request
-from fastapi.responses import FileResponse, JSONResponse, Response
+from fastapi import FastAPI
+from fastapi.responses import FileResponse, JSONResponse
 
 UA = "Pinguim/0.1 (agente comercios sem site; contato: bruno)"
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
@@ -524,51 +522,7 @@ def achar_resultado(nome):
     return None
 
 
-def _credenciais():
-    user = os.environ.get("PINGUIM_USER") or ""
-    password = os.environ.get("PINGUIM_PASSWORD") or ""
-    if not user or not password:
-        return None
-    return user, password
-
-
-def _auth_ok(header):
-    creds = _credenciais()
-    if creds is None:
-        return None
-    user, password = creds
-    if not header.startswith("Basic "):
-        return False
-    try:
-        decoded = base64.b64decode(header[6:].strip(), validate=False).decode()
-    except Exception:
-        return False
-    u, sep, p = decoded.partition(":")
-    if not sep:
-        return False
-    return secrets.compare_digest(u, user) and secrets.compare_digest(p, password)
-
-
 app = FastAPI(title="Pinguim")
-
-
-@app.middleware("http")
-async def basic_auth(request: Request, call_next):
-    ok = _auth_ok(request.headers.get("authorization", ""))
-    if ok is None:
-        return Response(
-            "Autenticação não configurada. Defina PINGUIM_USER e PINGUIM_PASSWORD.",
-            status_code=503,
-            media_type="text/plain",
-        )
-    if not ok:
-        return Response(
-            "Login necessário",
-            status_code=401,
-            headers={"WWW-Authenticate": 'Basic realm="Pinguim"'},
-            media_type="text/plain",
-        )
-    return await call_next(request)
 
 
 @app.get("/api/buscar")
