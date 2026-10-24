@@ -1,0 +1,1811 @@
+{
+  "schema": "pinguim/v1",
+  "gerado_em": "2026-10-24T12:08:25.860019-04:00",
+  "consulta": {
+    "termo": "pet shop",
+    "cidade": "Cacoal, RO",
+    "cidade_resolvida": "Cacoal, Rondônia, Região Norte, Brasil",
+    "bbox": [
+      -11.6193094,
+      -10.987,
+      -61.7965011,
+      -60.9999705
+    ],
+    "tags_osm": null
+  },
+  "resumo": {
+    "total": 53,
+    "com_site": 23,
+    "sem_site": 30,
+    "por_fonte": {
+      "google_places": 53
+    }
+  },
+  "erros": [
+    "Overpass falhou: "
+  ],
+  "resultados": [
+    {
+      "id": "google/ChIJKclibuAvyJMR2lgIBvQBJ-0",
+      "fonte": "google_places",
+      "nome": "PET CENTER CACOAL",
+      "categoria": "pet_store",
+      "endereco": "Av. Dois de Junho, 2604 - Centro, Cacoal - RO, 76963-882",
+      "telefone": "+55 69 98110-1547",
+      "telefone_e164": "+5569981101547",
+      "lat": -11.4372595,
+      "lon": -61.44773849999999,
+      "avaliacao": 4.7,
+      "tem_site": true,
+      "site": "https://wa.me/5569981101547",
+      "links": {
+        "whatsapp": "https://wa.me/5569981101547",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=PET+CENTER+CACOAL",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=17088629458665494746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJM5FDKgwvyJMRouCOe2Fj2Qw",
+      "fonte": "google_places",
+      "nome": "Pet Shop Company",
+      "categoria": "pet_store",
+      "endereco": "Av. Rio de Janeiro, 544 - Novo Horizonte, Cacoal - RO, 76962-037",
+      "telefone": "+55 69 3441-3988",
+      "telefone_e164": "+556934413988",
+      "lat": -11.429883499999999,
+      "lon": -61.4580528,
+      "avaliacao": 4.6,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/556934413988",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Pet+Shop+Company",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=925880468737286306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "petshopcompany.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "petshopcompany.com",
+          "registrado": true,
+          "dns": true,
+          "rdap": true,
+          "site_ativo": false,
+          "status": "registrado"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJM_MgEPIvyJMR3QGTi_cEZYw",
+      "fonte": "google_places",
+      "nome": "Spa Dog Pet Shop",
+      "categoria": "pet_store",
+      "endereco": "R. Rui Barbosa, 466 - Centro, Cacoal - RO, 76963-880",
+      "telefone": "+55 69 99226-6876",
+      "telefone_e164": "+5569992266876",
+      "lat": -11.4400728,
+      "lon": -61.4405053,
+      "avaliacao": 4.8,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569992266876",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Spa+Dog+Pet+Shop",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=10116497599202787805&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "spadogpetshop.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "spadogpetshop.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJG1kZYWsvyJMRhtJB0xeEaiU",
+      "fonte": "google_places",
+      "nome": "Água Viva Pet Shop",
+      "categoria": "pet_store",
+      "endereco": "Av. São Paulo, 2736 - Jardim Clodoaldo, Cacoal - RO, 76963-617",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.435528099999999,
+      "lon": -61.4491089,
+      "avaliacao": 4.4,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=%C3%81gua+Viva+Pet+Shop",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=2696112564798083718&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "aguavivapetshop.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "aguavivapetshop.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJC2DCtM8vyJMRfM8JJssaBeM",
+      "fonte": "google_places",
+      "nome": "Pet Company - Loja 2",
+      "categoria": "pet_store",
+      "endereco": "Av. Castelo Branco, 18885 - Princesa Isabel, Cacoal - RO, 76967-489",
+      "telefone": "+55 69 98415-3988",
+      "telefone_e164": "+5569984153988",
+      "lat": -11.443861,
+      "lon": -61.4460376,
+      "avaliacao": 4.7,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569984153988",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Pet+Company+-+Loja+2",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=16358510681312055164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "petcompanyloja2.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "petcompanyloja2.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJuTJU7t4vyJMRW29xl5-Ql84",
+      "fonte": "google_places",
+      "nome": "SVH PET CHIC SPA",
+      "categoria": "pet_store",
+      "endereco": "R. Leonório Perdocini, Jardim - Eldorado, Cacoal - RO, 76966-192",
+      "telefone": "+55 69 99337-5918",
+      "telefone_e164": "+5569993375918",
+      "lat": -11.4462152,
+      "lon": -61.430030699999996,
+      "avaliacao": 5,
+      "tem_site": true,
+      "site": "https://www.instagram.com/svhpetchic?stkn=cm51Z3FvbDh0Y20x&utm_source=qr",
+      "links": {
+        "whatsapp": "https://wa.me/5569993375918",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=SVH+PET+CHIC+SPA",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=14886526108411457371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJ9dCAFNkvyJMRdL6KH9kbeW8",
+      "fonte": "google_places",
+      "nome": "PET SHOP MEU AMIGO PET",
+      "categoria": "pet_store",
+      "endereco": "R. Alm. Barroso, 3413 - Novo Horizonte, Cacoal - RO, 76962-224",
+      "telefone": "+55 69 99902-4226",
+      "telefone_e164": "+5569999024226",
+      "lat": -11.4231889,
+      "lon": -61.457205099999996,
+      "avaliacao": 4.5,
+      "tem_site": true,
+      "site": "https://meuamigopetcacoal.com.br/",
+      "links": {
+        "whatsapp": "https://wa.me/5569999024226",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=PET+SHOP+MEU+AMIGO+PET",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=8032482029743029876&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJndO-RWsvyJMRsF1SypWrWM8",
+      "fonte": "google_places",
+      "nome": "É o Bicho pet shop e clínica veterinária Cacoal",
+      "categoria": "pet_store",
+      "endereco": "R. Antônio Deodato Durce, 1261 - Centro, Cacoal - RO, 76963-778",
+      "telefone": "+55 69 98473-2556",
+      "telefone_e164": "+5569984732556",
+      "lat": -11.4393935,
+      "lon": -61.447616800000006,
+      "avaliacao": 4.7,
+      "tem_site": true,
+      "site": "https://www.lojalocal.com/pets/30250205000196",
+      "links": {
+        "whatsapp": "https://wa.me/5569984732556",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=%C3%89+o+Bicho+pet+shop+e+cl%C3%ADnica+veterin%C3%A1ria+Cacoal",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=14940880423634492848&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJo-m4O2kvyJMRQZRAfC9Btx0",
+      "fonte": "google_places",
+      "nome": "Agropet Cacoal - Banho e Tosa",
+      "categoria": "pet_store",
+      "endereco": "Av. Mal. Rondon, 2833 - Princesa Isabel, Cacoal - RO, 76964-010",
+      "telefone": "+55 69 99288-7227",
+      "telefone_e164": "+5569992887227",
+      "lat": -11.4367362,
+      "lon": -61.443963499999995,
+      "avaliacao": 5,
+      "tem_site": true,
+      "site": "https://instagram.com/agropetcacoal?igshid=MzRlODBiNWFlZA==",
+      "links": {
+        "whatsapp": "https://wa.me/5569992887227",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Agropet+Cacoal+-+Banho+e+Tosa",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=2141251820041835585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJJ0YUC1RryJMRQdyPNwgLupc",
+      "fonte": "google_places",
+      "nome": "Santa Ceci - Banho e Tosa | Dentro da Santa Ceci - Clínica Veterinária",
+      "categoria": "pet_care",
+      "endereco": "Av. Rio de Janeiro, 349 - Novo Horizonte, Cacoal - RO, 76962-037",
+      "telefone": "+55 69 98105-1360",
+      "telefone_e164": "+5569981051360",
+      "lat": -11.4310721,
+      "lon": -61.456907799999996,
+      "avaliacao": 4.9,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569981051360",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Santa+Ceci+-+Banho+e+Tosa+%7C+Dentro+da+Santa+Ceci+-+Cl%C3%ADnica+Veterin%C3%A1ria",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=10933063175315119169&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "santacecibanhoetosadentrodasantaceciclinicaveterinaria.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "santacecibanhoetosadentrodasantaceciclinicaveterinaria.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJx_a4URgvyJMRHN8Sh74BJ9o",
+      "fonte": "google_places",
+      "nome": "DogLândia Pet Shop",
+      "categoria": "pet_store",
+      "endereco": "Av. Sete de Setembro, 3388 - Jardim Clodoaldo, Cacoal - RO, 76963-550",
+      "telefone": "+55 69 98421-3704",
+      "telefone_e164": "+5569984213704",
+      "lat": -11.4313871,
+      "lon": -61.444979000000004,
+      "avaliacao": 4.7,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569984213704",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=DogL%C3%A2ndia+Pet+Shop",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=15719534942181580572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "doglandiapetshop.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "doglandiapetshop.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJAb0aFn8vyJMRm8DwTyHcVc8",
+      "fonte": "google_places",
+      "nome": "Shop Pet&Gatô",
+      "categoria": "pet_store",
+      "endereco": "Rua Rosinéia de Souza, 3359 - Village do Sol, Cacoal - RO, 76964-387",
+      "telefone": "+55 69 99304-1313",
+      "telefone_e164": "+5569993041313",
+      "lat": -11.421802399999999,
+      "lon": -61.4425679,
+      "avaliacao": 4.6,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569993041313",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Shop+Pet%26Gat%C3%B4",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=14940089374504698011&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "shoppetgato.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "shoppetgato.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJGa87UakvyJMRpHKBNy2Kuvc",
+      "fonte": "google_places",
+      "nome": "Pet Shop Cat & Dog",
+      "categoria": "pet_store",
+      "endereco": "Av. das Mangueiras, 1413 - Vista Alegre, Cacoal - RO, 76960-050",
+      "telefone": "+55 69 98449-9658",
+      "telefone_e164": "+5569984499658",
+      "lat": -11.434211,
+      "lon": -61.4741199,
+      "avaliacao": 4.9,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569984499658",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Pet+Shop+Cat+%26+Dog",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=17850731999845773988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "petshopcatdog.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "petshopcatdog.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJuaRJ2pUvyJMRo3oBQCcOmsA",
+      "fonte": "google_places",
+      "nome": "Agropet Agrofamília",
+      "categoria": "pet_store",
+      "endereco": "Av. das Comunicações, 2973 - Teixeirão, Cacoal - RO, 76965-580",
+      "telefone": "+55 69 99996-0132",
+      "telefone_e164": "+5569999960132",
+      "lat": -11.426561900000001,
+      "lon": -61.4311341,
+      "avaliacao": 5,
+      "tem_site": true,
+      "site": "https://api.whatsapp.com/send?phone=5569999960132",
+      "links": {
+        "whatsapp": "https://wa.me/5569999960132",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Agropet+Agrofam%C3%ADlia",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=13878420763435956899&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJ8y-rT7EvyJMRB93dvLpPaZM",
+      "fonte": "google_places",
+      "nome": "Robinho Rações",
+      "categoria": "pet_store",
+      "endereco": "Rua ROSINEIA DE SOUZA 3413 - Rua Rosinéia de Souza, 1 - Vila do Sol, Cacoal - RO, 76964-382",
+      "telefone": "+55 69 99300-5927",
+      "telefone_e164": "+5569993005927",
+      "lat": -11.4218753,
+      "lon": -61.4420352,
+      "avaliacao": 4.8,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569993005927",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Robinho+Ra%C3%A7%C3%B5es",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=10622108859581193479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "robinhoracoes.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "robinhoracoes.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJd-teaGkvyJMRSZFryQNKlxY",
+      "fonte": "google_places",
+      "nome": "Pet Shopping Casal 20",
+      "categoria": "pet_store",
+      "endereco": "Av. Dois de Junho, 2344 - Centro, Cacoal - RO, 76963-882",
+      "telefone": "+55 69 3441-1943",
+      "telefone_e164": "+556934411943",
+      "lat": -11.4396399,
+      "lon": -61.4477294,
+      "avaliacao": 4.3,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/556934411943",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Pet+Shopping+Casal+20",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=1627851170442350921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "petshoppingcasal20.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "petshoppingcasal20.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJpzYi4fcvyJMRsJKqAYy3hvs",
+      "fonte": "google_places",
+      "nome": "🥇 Dog Vida Pet Shop e Clínica veterinária Especialista em Pets em Cacoal",
+      "categoria": "pet_store",
+      "endereco": "R. Anísio Serrão, 1450 - Princesa Isabel, Cacoal - RO, 76964-110",
+      "telefone": "+55 69 98499-7913",
+      "telefone_e164": "+5569984997913",
+      "lat": -11.43557,
+      "lon": -61.444545299999994,
+      "avaliacao": 4.8,
+      "tem_site": true,
+      "site": "https://www.instagram.com/petshopdogvida?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      "links": {
+        "whatsapp": "https://wa.me/5569984997913",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=%F0%9F%A5%87+Dog+Vida+Pet+Shop+e+Cl%C3%ADnica+veterin%C3%A1ria+Especialista+em+Pets+em+Cacoal",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=18124375562350400176&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJ8wdoNBcvyJMRcJ6Qf1yq1fQ",
+      "fonte": "google_places",
+      "nome": "Pelos E Patas Pet Shop",
+      "categoria": "pet_store",
+      "endereco": "Av. São Paulo, 3896 - Jardim Clodoaldo, Cacoal - RO, 76963-617",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.4253321,
+      "lon": -61.449076000000005,
+      "avaliacao": 3,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Pelos+E+Patas+Pet+Shop",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=17642194429547683440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "pelosepataspetshop.com.br",
+          "registrado": true,
+          "dns": true,
+          "rdap": true,
+          "site_ativo": true,
+          "status": "registrado"
+        },
+        {
+          "dominio": "pelosepataspetshop.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": true,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJ6RXnCm0vyJMRkQh-Af9fYIg",
+      "fonte": "google_places",
+      "nome": "Banho D'Espuma - Hotel, Pet Shop, Veterinária e Banho e Tosa",
+      "categoria": "veterinary_care",
+      "endereco": "Av. Cuiabá, 1811 - Centro, Cacoal - RO, 76963-731",
+      "telefone": "+55 69 98466-1811",
+      "telefone_e164": "+5569984661811",
+      "lat": -11.4369706,
+      "lon": -61.453662900000005,
+      "avaliacao": 4.7,
+      "tem_site": true,
+      "site": "https://banhodespumacacoal.com.br/",
+      "links": {
+        "whatsapp": "https://wa.me/5569984661811",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Banho+D%27Espuma+-+Hotel%2C+Pet+Shop%2C+Veterin%C3%A1ria+e+Banho+e+Tosa",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=9826959935768758417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJmTLehkEvyJMRtW3oW5LGUOs",
+      "fonte": "google_places",
+      "nome": "Thiago Giordani Clinica Veterinária e Pet Shop",
+      "categoria": "veterinary_care",
+      "endereco": "Av. Amazonas, 2117 centro - Centro, Cacoal - RO, 76963-749",
+      "telefone": "+55 69 98138-0550",
+      "telefone_e164": "+5569981380550",
+      "lat": -11.4389643,
+      "lon": -61.4521972,
+      "avaliacao": 4.6,
+      "tem_site": true,
+      "site": "https://meuairgo.com.br/4e47e1a5",
+      "links": {
+        "whatsapp": "https://wa.me/5569981380550",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Thiago+Giordani+Clinica+Veterin%C3%A1ria+e+Pet+Shop",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=16956270928959401397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJrRDdMRovyJMRZcHDZtz_d5c",
+      "fonte": "google_places",
+      "nome": "Santa Ceci - Creche e Hotelzinho Pet",
+      "categoria": "pet_store",
+      "endereco": "Av. Belo Horizonte, 3070 - Fundos - Liberdade, Cacoal - RO, 76962-183",
+      "telefone": "+55 69 98105-2329",
+      "telefone_e164": "+5569981052329",
+      "lat": -11.428159899999999,
+      "lon": -61.454632999999994,
+      "avaliacao": 4,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569981052329",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Santa+Ceci+-+Creche+e+Hotelzinho+Pet",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=10914473544037679461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "santacecicrecheehotelzinhopet.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "santacecicrecheehotelzinhopet.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJmy1l-k0vyJMRCUIuLY_cdoY",
+      "fonte": "google_places",
+      "nome": "Santa Ceci - Banho e Tosa - Unidade Centro",
+      "categoria": "pet_care",
+      "endereco": "Av: Castelo Branco, 18994 - Sl 02 - Centro, Cacoal - RO, 76963-898",
+      "telefone": "+55 69 98105-1325",
+      "telefone_e164": "+5569981051325",
+      "lat": -11.4431665,
+      "lon": -61.4467769,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569981051325",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Santa+Ceci+-+Banho+e+Tosa+-+Unidade+Centro",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=9689174155830641161&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "santacecibanhoetosaunidadecentro.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "santacecibanhoetosaunidadecentro.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJT-TVUTAvyJMRl3nnPjLUM8Q",
+      "fonte": "google_places",
+      "nome": "Petshop Ramos (Seu Pet Estiloso)",
+      "categoria": "pet_store",
+      "endereco": "Rua Rosinéia de Souza, 3099 - Village do Sol, Cacoal - RO, 76964-382",
+      "telefone": "+55 69 99306-2716",
+      "telefone_e164": "+5569993062716",
+      "lat": -11.4217892,
+      "lon": -61.445044100000004,
+      "avaliacao": 5,
+      "tem_site": true,
+      "site": "https://bit.ly/3A4f1WY",
+      "links": {
+        "whatsapp": "https://wa.me/5569993062716",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Petshop+Ramos+%28Seu+Pet+Estiloso%29",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=14137876967514929559&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJ63UPWZ8vyJMRQfnTAikPNKw",
+      "fonte": "google_places",
+      "nome": "Pet Shop Avenida",
+      "categoria": "pet_store",
+      "endereco": "Av. das Comunicações, 2917 - Teixeirão, Cacoal - RO, 76965-580",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.4269377,
+      "lon": -61.431709,
+      "avaliacao": 4.2,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Pet+Shop+Avenida",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=12408559542128081217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "petshopavenida.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "petshopavenida.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJdT8T-RMvyJMRSSsAvrZnne0",
+      "fonte": "google_places",
+      "nome": "Piscicultura Rondônia – Peixes ornamentais para Aquários Plantados – Cacoal, Rondônia.",
+      "categoria": "pet_store",
+      "endereco": "R. Luther King, 2011 - Jardim Clodoaldo, Cacoal - RO, 76963-586",
+      "telefone": "+55 69 98458-5876",
+      "telefone_e164": "+5569984585876",
+      "lat": -11.4294922,
+      "lon": -61.4498825,
+      "avaliacao": 4.9,
+      "tem_site": true,
+      "site": "https://linktr.ee/Piscicultura_Rondonia",
+      "links": {
+        "whatsapp": "https://wa.me/5569984585876",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Piscicultura+Rond%C3%B4nia+%E2%80%93+Peixes+ornamentais+para+Aqu%C3%A1rios+Plantados+%E2%80%93+Cacoal%2C+Rond%C3%B4nia.",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=17121955392901884745&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJRTqzV_wvyJMRBGZFsneUivo",
+      "fonte": "google_places",
+      "nome": "Top Rações - Cacoal",
+      "categoria": "pet_store",
+      "endereco": "Av. das Mangueiras, 2385 - Vista Alegre, Cacoal - RO, 76960-132",
+      "telefone": "+55 69 98462-8924",
+      "telefone_e164": "+5569984628924",
+      "lat": -11.425230299999999,
+      "lon": -61.47414439999999,
+      "avaliacao": 3.5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569984628924",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Top+Ra%C3%A7%C3%B5es+-+Cacoal",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=18053405298080966148&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "topracoescacoal.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "topracoescacoal.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJT12gGYQvyJMRYJE-Y8a-yPU",
+      "fonte": "google_places",
+      "nome": "PET SHOP QUATRO PATAS",
+      "categoria": "pet_store",
+      "endereco": "Av. Nações Unidas, 3000 - Princesa Isabel, Cacoal - RO, 76964-272",
+      "telefone": "+55 69 99213-9277",
+      "telefone_e164": "+5569992139277",
+      "lat": -11.4349131,
+      "lon": -61.440873999999994,
+      "avaliacao": null,
+      "tem_site": true,
+      "site": "https://api.whatsapp.com/send?phone=5569992139277",
+      "links": {
+        "whatsapp": "https://wa.me/5569992139277",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=PET+SHOP+QUATRO+PATAS",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=17710615293912322400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJk4-2PAAvyJMRTbSbAafXFOE",
+      "fonte": "google_places",
+      "nome": "MR Agropet",
+      "categoria": "pet_store",
+      "endereco": "Av. Malaquita, 2230 - Novo Horizonte, Cacoal - RO, 76962-008",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.432027,
+      "lon": -61.463468000000006,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=MR+Agropet",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=16218825270354490445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "mragropet.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "mragropet.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJxyiswx0vyJMR4n4fYfqeFhA",
+      "fonte": "google_places",
+      "nome": "Pet Shop Casa das Rações",
+      "categoria": "pet_store",
+      "endereco": "Av. Rio de Janeiro, 766 - Novo Cacoal, Cacoal - RO, 76962-114",
+      "telefone": "+55 69 99224-2639",
+      "telefone_e164": "+5569992242639",
+      "lat": -11.428998700000001,
+      "lon": -61.4599869,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569992242639",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Pet+Shop+Casa+das+Ra%C3%A7%C3%B5es",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=1159288752302948066&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "petshopcasadasracoes.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "petshopcasadasracoes.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJL9As8gIvyJMRk9uIuQC5Jzk",
+      "fonte": "google_places",
+      "nome": "Auqmia Centro Estetica Pet",
+      "categoria": "pet_store",
+      "endereco": "R. José do Patrocínio, 1445 - Princesa Isabel, Cacoal - RO, 76974-088",
+      "telefone": "+55 69 98447-2719",
+      "telefone_e164": "+5569984472719",
+      "lat": -11.437680499999999,
+      "lon": -61.444776299999994,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569984472719",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Auqmia+Centro+Estetica+Pet",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=4118463797017500563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "auqmiacentroesteticapet.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "auqmiacentroesteticapet.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJLfVN9BQvyJMRFGtYodpnsiU",
+      "fonte": "google_places",
+      "nome": "Magia Aquática Pet Shopping",
+      "categoria": "store",
+      "endereco": "Glr Osório, 1029 - Novo Horizonte, Cacoal - RO, 76967-624",
+      "telefone": "+55 69 3221-0856",
+      "telefone_e164": "+556932210856",
+      "lat": -11.434674300000001,
+      "lon": -61.456686100000006,
+      "avaliacao": null,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/556932210856",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Magia+Aqu%C3%A1tica+Pet+Shopping",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=2716347713965288212&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "magiaaquaticapetshopping.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "magiaaquaticapetshopping.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJB0NO3BovyJMR8UdcgEYE2Ps",
+      "fonte": "google_places",
+      "nome": "Petgato Rações",
+      "categoria": "pet_store",
+      "endereco": "Av. Tiradentes, 452 - Novo Cacoal, Cacoal - RO, 76962-146",
+      "telefone": "+55 69 99994-2976",
+      "telefone_e164": "+5569999942976",
+      "lat": -11.4262099,
+      "lon": -61.4566959,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569999942976",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Petgato+Ra%C3%A7%C3%B5es",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=18147259399337166833&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "petgatoracoes.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "petgatoracoes.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJj_oHCm0vyJMR7c5ewQ_fvVg",
+      "fonte": "google_places",
+      "nome": "Centro Veterinario Marcos Magalhaes (Ani+clínica veterinária)",
+      "categoria": "veterinary_care",
+      "endereco": "R. Pres. Médici, 2152 - Jardim Clodoaldo, Cacoal - RO, 76963-620",
+      "telefone": "+55 69 99905-5036",
+      "telefone_e164": "+5569999055036",
+      "lat": -11.4246606,
+      "lon": -61.451328499999995,
+      "avaliacao": 4.6,
+      "tem_site": true,
+      "site": "https://instagram.com/animais.clinica.vet.cacoal?igshid=MzRlODBiNWFlZA==",
+      "links": {
+        "whatsapp": "https://wa.me/5569999055036",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Centro+Veterinario+Marcos+Magalhaes+%28Ani%2Bcl%C3%ADnica+veterin%C3%A1ria%29",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=6394512304697691885&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJwVnIACAvyJMRW6fYLqiBl9M",
+      "fonte": "google_places",
+      "nome": "aquatica peixes ornamentais",
+      "categoria": "pet_store",
+      "endereco": "Av. Juscelino Kubitscheck - Liberdade, Cacoal - RO, 76962-057",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.43631,
+      "lon": -61.4555522,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=aquatica+peixes+ornamentais",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=15246797622826542939&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "aquaticapeixesornamentais.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "aquaticapeixesornamentais.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJi0LSQyIvyJMRVvw1shLhswk",
+      "fonte": "google_places",
+      "nome": "Meu Pet Favorito",
+      "categoria": "store",
+      "endereco": "Av. das Mangueiras, 1883 - Vista Alegre, Cacoal - RO, 76960-970",
+      "telefone": "+55 69 99358-9905",
+      "telefone_e164": "+5569993589905",
+      "lat": -11.4298468,
+      "lon": -61.474079499999995,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569993589905",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Meu+Pet+Favorito",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=699149837588102230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "meupetfavorito.com.br",
+          "registrado": true,
+          "dns": true,
+          "rdap": true,
+          "site_ativo": true,
+          "status": "registrado"
+        },
+        {
+          "dominio": "meupetfavorito.com",
+          "registrado": true,
+          "dns": true,
+          "rdap": true,
+          "site_ativo": false,
+          "status": "registrado"
+        }
+      ],
+      "site_mesmo_nome": true,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJWUHbH14vyJMRauVeVtX6PQ4",
+      "fonte": "google_places",
+      "nome": "Pet e Repet",
+      "categoria": "pet_store",
+      "endereco": "R. Antônio de Santana, 4097 - Village do Sol, Cacoal - RO, 76964-264",
+      "telefone": "+55 69 98409-6941",
+      "telefone_e164": "+5569984096941",
+      "lat": -11.427334,
+      "lon": -61.441373999999996,
+      "avaliacao": 5,
+      "tem_site": true,
+      "site": "https://sites.google.com/view/petrepet/inicio",
+      "links": {
+        "whatsapp": "https://wa.me/5569984096941",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Pet+e+Repet",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=1026252084294378858&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJtQ5Oz2UvyJMR12srex6IWp4",
+      "fonte": "google_places",
+      "nome": "S.A RAÇÕES",
+      "categoria": "pet_store",
+      "endereco": "Rua Uirapuru - R. Antônio Deodato Durce - Eldorado, Cacoal - RO, 76967-000",
+      "telefone": "+55 69 99368-8709",
+      "telefone_e164": "+5569993688709",
+      "lat": -11.4390669,
+      "lon": -61.43137360000001,
+      "avaliacao": 4.9,
+      "tem_site": true,
+      "site": "https://instagram.com/racoes_s.a?igshid=NTdlMDg3MTY=",
+      "links": {
+        "whatsapp": "https://wa.me/5569993688709",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=S.A+RA%C3%87%C3%95ES",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=11410582270393412567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJnVIa3rIvyJMRoMmMfsWz4no",
+      "fonte": "google_places",
+      "nome": "Lux Pet's",
+      "categoria": "pet_care",
+      "endereco": "Av. Dois de Junho, 3635 - Jardim Clodoaldo, Cacoal - RO, 76963-603",
+      "telefone": "+55 69 99928-8903",
+      "telefone_e164": "+5569999288903",
+      "lat": -11.4276696,
+      "lon": -61.448169699999994,
+      "avaliacao": null,
+      "tem_site": true,
+      "site": "https://l.instagram.com/?u=https://api.whatsapp.com/send?phone=5569984737203&text=ol%C3%A1,+gostaria+de+agendar+um+hor%C3%A1rio.&e=ATNLfSc7zeEMTSibkxzVgGZP0PDUzAWLRz0YTKjTOuuv0hVrdxnCO_hXAlosqzW2n4uGFDNSpvKCwSyezxNZhC-JckdhwkGE&s=1",
+      "links": {
+        "whatsapp": "https://wa.me/5569999288903",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Lux+Pet%27s",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=8854837478176901536&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJd34VnJAvyJMRaGtxYWtuN9s",
+      "fonte": "google_places",
+      "nome": "Aquarius & Cia",
+      "categoria": "pet_store",
+      "endereco": "Av. Belo Horizonte, 2393 - Novo Horizonte, Cacoal - RO, 76962-091",
+      "telefone": "+55 69 3443-2860",
+      "telefone_e164": "+556934432860",
+      "lat": -11.4348162,
+      "lon": -61.454884099999994,
+      "avaliacao": 4.8,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/556934432860",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Aquarius+%26+Cia",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=15796215625500683112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "aquariuscia.com.br",
+          "registrado": true,
+          "dns": true,
+          "rdap": null,
+          "site_ativo": false,
+          "status": "registrado"
+        },
+        {
+          "dominio": "aquariuscia.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJY63UVRMvyJMRTN1z3PrkF6c",
+      "fonte": "google_places",
+      "nome": "PEIXES ORNAMENTAIS E CRIAÇÃO INTENSIVA - CASA KOI",
+      "categoria": "pet_store",
+      "endereco": "R. João Cabral, 1095 - Cacoal, RO, 76960-088",
+      "telefone": "+55 69 99228-3940",
+      "telefone_e164": "+5569992283940",
+      "lat": -11.4283229,
+      "lon": -61.473349999999996,
+      "avaliacao": null,
+      "tem_site": true,
+      "site": "https://api.whatsapp.com/send?phone=5569992283940&text=Ol%C3%A1%2C%20Casa%20Koi!%20Gostaria%20de%20um%20or%C3%A7amento.",
+      "links": {
+        "whatsapp": "https://wa.me/5569992283940",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=PEIXES+ORNAMENTAIS+E+CRIA%C3%87%C3%83O+INTENSIVA+-+CASA+KOI",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=12040343894889848140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJ7dpJiPovyJMR1oiXjPirE5s",
+      "fonte": "google_places",
+      "nome": "Click PetShop",
+      "categoria": "pet_store",
+      "endereco": "Av. Porto Velho - Cacoal, RO, 76960-000",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.432374099999999,
+      "lon": -61.44665889999999,
+      "avaliacao": null,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Click+PetShop",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=11174464184435312854&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "clickpetshop.com.br",
+          "registrado": true,
+          "dns": true,
+          "rdap": true,
+          "site_ativo": true,
+          "status": "registrado"
+        },
+        {
+          "dominio": "clickpetshop.com",
+          "registrado": true,
+          "dns": true,
+          "rdap": true,
+          "site_ativo": false,
+          "status": "registrado"
+        }
+      ],
+      "site_mesmo_nome": true,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJrfErqLwvyJMRCSUV6ChBt2U",
+      "fonte": "google_places",
+      "nome": "MOLECÃO RAÇÕES🐾🐾 - Variedades de Ração para seu Pet",
+      "categoria": "store",
+      "endereco": "R. dos Suruís - Teixeirão, Cacoal - RO, 76960-664",
+      "telefone": "+55 69 99228-4911",
+      "telefone_e164": "+5569992284911",
+      "lat": -11.432237,
+      "lon": -61.437494900000004,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569992284911",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=MOLEC%C3%83O+RA%C3%87%C3%95ES%F0%9F%90%BE%F0%9F%90%BE+-+Variedades+de+Ra%C3%A7%C3%A3o+para+seu+Pet",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=7329398562516968713&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "molecaoracoesvariedadesderacaoparaseupet.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "molecaoracoesvariedadesderacaoparaseupet.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJS7RAu-wvyJMRBW67Fyd1Pxs",
+      "fonte": "google_places",
+      "nome": "PEIXES ORNAMENTAIS E PEIXES DE CORTE - ALEVINOS CACOAL",
+      "categoria": "pet_store",
+      "endereco": "R. João Cabral, 1310 - Vista Alegre, Cacoal - RO, 76960-088",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.428122499999999,
+      "lon": -61.475215000000006,
+      "avaliacao": 5,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=PEIXES+ORNAMENTAIS+E+PEIXES+DE+CORTE+-+ALEVINOS+CACOAL",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=1963416773319159301&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "peixesornamentaisepeixesdecortealevinoscacoal.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "peixesornamentaisepeixesdecortealevinoscacoal.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJP5UDKAAvyJMR1yvOYctUsBo",
+      "fonte": "google_places",
+      "nome": "Agro pet Teixeirao",
+      "categoria": "pharmacy",
+      "endereco": "Av. das Comunicações, 3037 - Teixeirão, Cacoal - RO, 76965-672",
+      "telefone": "+55 69 99960-1329",
+      "telefone_e164": "+5569999601329",
+      "lat": -11.4261964,
+      "lon": -61.4307471,
+      "avaliacao": null,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569999601329",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Agro+pet+Teixeirao",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=1923130273383197655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "agropetteixeirao.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "agropetteixeirao.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJk9boAxwvyJMRjT_SNODzEy4",
+      "fonte": "google_places",
+      "nome": "Santa Ceci - Clínica Veterinária e Pet Shop - Unidade Bairro Novo Horizonte",
+      "categoria": "veterinary_care",
+      "endereco": "Av. Rio de Janeiro, 349 - Novo Horizonte, Cacoal - RO, 76962-037",
+      "telefone": "+55 69 99388-5802",
+      "telefone_e164": "+5569993885802",
+      "lat": -11.4310721,
+      "lon": -61.456907799999996,
+      "avaliacao": 4.8,
+      "tem_site": true,
+      "site": "http://www.santaceci.com.br/",
+      "links": {
+        "whatsapp": "https://wa.me/5569993885802",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Santa+Ceci+-+Cl%C3%ADnica+Veterin%C3%A1ria+e+Pet+Shop+-+Unidade+Bairro+Novo+Horizonte",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=3320265494586605453&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJ65lvxmovyJMR4KAiN-SAToc",
+      "fonte": "google_places",
+      "nome": "Ag O Pet Ramos Racões",
+      "categoria": "pet_store",
+      "endereco": "Av. Sete de Setembro, 3055 - Centro, Cacoal - RO, 76963-837",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.4343793,
+      "lon": -61.44538799999999,
+      "avaliacao": null,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Ag+O+Pet+Ramos+Rac%C3%B5es",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=9749871960969617632&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "agopetramosracoes.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "agopetramosracoes.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJox8nNQkvyJMRKAD_dbQ2XRA",
+      "fonte": "google_places",
+      "nome": "CollieVet Produtos Veterinários",
+      "categoria": "pharmacy",
+      "endereco": "Av. Malaquita, 2646 - Novo Horizonte, Cacoal - RO, 76962-026",
+      "telefone": "+55 69 3311-3700",
+      "telefone_e164": "+556933113700",
+      "lat": -11.4285455,
+      "lon": -61.4634753,
+      "avaliacao": 4.9,
+      "tem_site": true,
+      "site": "https://www.collievet.com.br/",
+      "links": {
+        "whatsapp": "https://wa.me/556933113700",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=CollieVet+Produtos+Veterin%C3%A1rios",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=1179158826142597160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJM9wOJ6cvyJMRWN5kx2gtXu8",
+      "fonte": "google_places",
+      "nome": "CASA DE RACOES Mundo AGRO PET",
+      "categoria": "pet_store",
+      "endereco": "R. Sócrates, 950 - Jardim Bandeirantes, Cacoal - RO, 76961-846",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.430259099999999,
+      "lon": -61.4696912,
+      "avaliacao": null,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=CASA+DE+RACOES+Mundo+AGRO+PET",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=17248273550920703576&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "casaderacoesmundoagropet.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "casaderacoesmundoagropet.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJGfBwkvglyJMRp5FAWheNzWk",
+      "fonte": "google_places",
+      "nome": "Havan Cacoal",
+      "categoria": "department_store",
+      "endereco": "Av. Castelo Branco, 15.706 - Incra, Cacoal - RO, 76965-894",
+      "telefone": "+55 69 3025-8355",
+      "telefone_e164": "+556930258355",
+      "lat": -11.4519637,
+      "lon": -61.427850299999996,
+      "avaliacao": 4.6,
+      "tem_site": true,
+      "site": "https://www.havan.com.br/?utm_source=gmb&utm_medium=gmb-perfil&utm_campaign=lc_107",
+      "links": {
+        "whatsapp": "https://wa.me/556930258355",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Havan+Cacoal",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=7623904875646063015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJKQkeTUQvyJMRzGFcQYkThpI",
+      "fonte": "google_places",
+      "nome": "Cacoal Shopping",
+      "categoria": "shopping_mall",
+      "endereco": "R. Antônio Deodato Durce, 3500 - Floresta, Cacoal - RO, 76963-862",
+      "telefone": "+55 69 3443-4187",
+      "telefone_e164": "+556934434187",
+      "lat": -11.4397492,
+      "lon": -61.434721399999994,
+      "avaliacao": 4.5,
+      "tem_site": true,
+      "site": "http://www.cacoalshopping.com/",
+      "links": {
+        "whatsapp": "https://wa.me/556934434187",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Cacoal+Shopping",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=10558147856644727244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJF4D9vWwvyJMRDKLBIDatLQ4",
+      "fonte": "google_places",
+      "nome": "Alvorada Produtos Agropecuários - Cacoal/RO",
+      "categoria": null,
+      "endereco": "Av. Castelo Branco, 18105 - Santo Antônio, Cacoal - RO, 76965-868",
+      "telefone": "+55 67 99676-3344",
+      "telefone_e164": "+5567996763344",
+      "lat": -11.4460977,
+      "lon": -61.438994799999996,
+      "avaliacao": 4.7,
+      "tem_site": true,
+      "site": "http://www.alvoradanet.com.br/",
+      "links": {
+        "whatsapp": "https://wa.me/5567996763344",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Alvorada+Produtos+Agropecu%C3%A1rios+-+Cacoal%2FRO",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=1021663138472370700&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJPxfqwxEvyJMRMt2oSfTctYY",
+      "fonte": "google_places",
+      "nome": "Abrigo Vira-Lata Vira amor",
+      "categoria": "pet_care",
+      "endereco": "R. das Associações, 3465 - Josino Brito, Cacoal - RO, 76960-970",
+      "telefone": "+55 69 99910-1261",
+      "telefone_e164": "+5569999101261",
+      "lat": -11.4163525,
+      "lon": -61.46644800000001,
+      "avaliacao": 4.3,
+      "tem_site": true,
+      "site": "https://www.instagram.com/geovannaoffc_?igsh=MW85MGlmZnh2NmJoaA==",
+      "links": {
+        "whatsapp": "https://wa.me/5569999101261",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Abrigo+Vira-Lata+Vira+amor",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=9706907513632906546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    },
+    {
+      "id": "google/ChIJo7jhsa0vyJMR4ckQCfSfORc",
+      "fonte": "google_places",
+      "nome": "Petshop meu amigo pet 2",
+      "categoria": "store",
+      "endereco": "Av. das Mangueiras - Vista Alegre, Cacoal - RO",
+      "telefone": "+55 69 99358-9905",
+      "telefone_e164": "+5569993589905",
+      "lat": -11.429832,
+      "lon": -61.474168199999994,
+      "avaliacao": null,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": "https://wa.me/5569993589905",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Petshop+meu+amigo+pet+2",
+        "instagram_fonte": "busca",
+        "google_maps": "https://maps.google.com/?cid=1673544607017781729&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "osm": null
+      },
+      "dominios": [
+        {
+          "dominio": "petshopmeuamigopet2.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "petshopmeuamigopet2.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": null
+    }
+  ]
+}

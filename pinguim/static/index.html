@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>🐧 Pinguim</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{font-family:system-ui;margin:0;background:#f4f6fa;color:#1d2433}
+header{background:#14213d;color:#fff;padding:16px 24px}
+main{padding:20px 24px}
+form{display:flex;gap:8px;flex-wrap:wrap}
+input,button{padding:10px;border:1px solid #ccd;border-radius:8px;font-size:15px}
+button{background:#fca311;border:0;font-weight:600;cursor:pointer}
+table{width:100%;border-collapse:collapse;background:#fff;margin-top:16px;font-size:14px}
+th,td{padding:8px;border-bottom:1px solid #eee;text-align:left;vertical-align:top}
+th{background:#e5e9f2}
+.ok{color:#198754}.no{color:#c1121f;font-weight:600}
+.tag{display:inline-block;padding:2px 6px;border-radius:6px;background:#eef;margin:1px;font-size:12px}
+.free{background:#d8f5e0}.reg{background:#fde2e2}
+#resumo{margin-top:12px;font-weight:600}
+.nota{margin:8px 0 0;color:#445;font-size:13px}
+a{color:#1d4ed8}
+</style>
+</head>
+<body>
+<header>
+<h1 style="margin:0">🐧 Pinguim <small style="font-size:14px;opacity:.7">— encontra comércios sem site (Google Places + OpenStreetMap)</small></h1>
+</header>
+<main>
+<form id="f">
+<input id="termo" list="cats" placeholder="Ex.: pet shop, padaria ou nome" value="pet shop" required>
+<datalist id="cats"></datalist>
+<input id="cidade" placeholder="Cidade, UF" value="Cacoal, RO" required>
+<label style="align-self:center"><input type="checkbox" id="dom"> checar domínios (opcional, mais lento)</label>
+<label style="align-self:center"><input type="checkbox" id="so"> só sem site</label>
+<button>Buscar</button>
+<button type="button" id="csv">Exportar CSV</button>
+<button type="button" id="json">Exportar JSON</button>
+</form>
+<p class="nota">A busca padrão não consulta DNS/RDAP. Resultados novos ficam em /tmp nesta instância (na Vercel o disco é efêmero).</p>
+<div id="resumo"></div>
+<table>
+<thead><tr><th>Nome</th><th>Fonte</th><th>Endereço</th><th>Telefone</th><th>Site</th><th>Links</th><th>Domínios</th></tr></thead>
+<tbody id="tb"></tbody>
+</table>
+</main>
+<script>
+let D = null;
+fetch('/api/categorias').then(r => r.json()).then(c => {
+  cats.innerHTML = Object.keys(c).map(k => `<option value="${k}">`).join('');
+}).catch(() => {});
+const e = s => (s ?? '').toString().replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function href(u) {
+  if (!u) return '';
+  const s = String(u).trim();
+  if (!/^https?:\/\//i.test(s)) return '';
+  return e(s);
+}
+function link(url, label) {
+  const h = href(url);
+  return h ? `<a href="${h}" target="_blank" rel="noopener">${label}</a>` : '';
+}
+function render() {
+  if (!D) return;
+  const rs = D.resultados.filter(r => !so.checked || !r.tem_site);
+  const salvo = D.arquivo ? ` — salvo em ${D.arquivo}` : '';
+  const avisos = D.erros && D.erros.length ? ' | Avisos: ' + D.erros.join('; ') : '';
+  resumo.textContent = `${D.consulta.cidade_resolvida}: ${D.resumo.total} comércios · ${D.resumo.com_site} com site · ${D.resumo.sem_site} sem site${salvo}${avisos}`;
+  tb.innerHTML = rs.map(r => `<tr>
+    <td><b>${e(r.nome)}</b><br><small>${e(r.categoria)}${r.avaliacao ? ' · ★' + e(r.avaliacao) : ''}</small></td>
+    <td><small>${e(r.fonte)}</small></td>
+    <td>${e(r.endereco) || '—'}</td>
+    <td>${e(r.telefone) || '—'}</td>
+    <td>${r.tem_site ? (href(r.site) ? `<a class="ok" href="${href(r.site)}" target="_blank" rel="noopener">tem site</a>` : '<span class="ok">tem site</span>') : '<span class="no">sem site</span>'}${r.site_mesmo_nome ? '<br><span class="tag reg">⚠ site c/ mesmo nome</span>' : ''}</td>
+    <td>${[link(r.links.whatsapp, 'WhatsApp'), link(r.links.instagram, 'Instagram' + (r.links.instagram_fonte == 'busca' ? ' (busca)' : '')), link(r.links.google_maps, 'Google Maps'), link(r.links.osm, 'OSM')].filter(Boolean).join('<br>')}</td>
+    <td>${(r.dominios || []).map(d => `<span class="tag ${d.registrado === true ? 'reg' : d.registrado === false ? 'free' : ''}">${e(d.dominio)}: ${e(d.status)}${d.site_ativo ? ' (site no ar)' : ''}</span>`).join('<br>')}</td>
+  </tr>`).join('');
+}
+so.onchange = render;
+f.onsubmit = async ev => {
+  ev.preventDefault();
+  resumo.textContent = dom.checked
+    ? 'Buscando com checagem de domínios... (ainda cabe em cerca de 1 min)'
+    : 'Buscando... (sem checagem de domínio, costuma levar menos de 30s)';
+  tb.innerHTML = '';
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 55000);
+  try {
+    const res = await fetch(`/api/buscar?termo=${encodeURIComponent(termo.value)}&cidade=${encodeURIComponent(cidade.value)}&dominios=${dom.checked}`, {signal: ctrl.signal});
+    const r = await res.json().catch(() => ({erro: res.status + ' ' + res.statusText}));
+    if (!res.ok && !r.erro) r.erro = res.status + ' ' + res.statusText;
+    if (r.erro) { resumo.textContent = 'Erro: ' + r.erro; return; }
+    D = r;
+    render();
+  } catch (err) {
+    resumo.textContent = 'Erro: ' + (err.name === 'AbortError' ? 'a busca passou de 55s' : err.message);
+  } finally {
+    clearTimeout(timer);
+  }
+};
+function exp(t) {
+  if (!D) return alert('Faça uma busca primeiro');
+  let b;
+  if (t == 'json') b = new Blob([JSON.stringify(D, null, 2)], {type: 'application/json'});
+  else {
+    const h = ['nome','endereco','telefone','tem_site','site','whatsapp','instagram','google_maps','dominios'];
+    const q = v => '"' + (v ?? '').toString().replace(/"/g, '""') + '"';
+    b = new Blob(['\ufeff' + h.join(',') + '\n' + D.resultados.map(r => [r.nome, r.endereco, r.telefone, r.tem_site, r.site, r.links.whatsapp, r.links.instagram, r.links.google_maps, (r.dominios || []).map(d => d.dominio + ':' + d.status).join(' | ')].map(q).join(',')).join('\n')], {type: 'text/csv'});
+  }
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(b);
+  a.download = 'pinguim.' + t;
+  a.click();
+}
+csv.onclick = () => exp('csv');
+json.onclick = () => exp('json');
+</script>
+</body>
+</html>

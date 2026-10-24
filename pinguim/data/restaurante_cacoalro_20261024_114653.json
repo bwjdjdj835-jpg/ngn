@@ -1,0 +1,199 @@
+{
+  "schema": "pinguim/v1",
+  "gerado_em": "2026-10-24T11:46:53.222048-04:00",
+  "consulta": {
+    "termo": "restaurante",
+    "cidade": "Cacoal, RO",
+    "cidade_resolvida": "Cacoal, Rondônia, Região Norte, Brasil",
+    "bbox": [
+      -11.6193094,
+      -10.987,
+      -61.7965011,
+      -60.9999705
+    ],
+    "tags_osm": [
+      "amenity=restaurant",
+      "amenity=fast_food"
+    ]
+  },
+  "resumo": {
+    "total": 4,
+    "com_site": 1,
+    "sem_site": 3
+  },
+  "resultados": [
+    {
+      "id": "node/7007104987",
+      "nome": "Lá em Casa",
+      "categoria": "amenity=restaurant",
+      "endereco": null,
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.499105,
+      "lon": -61.37091,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=L%C3%A1+em+Casa",
+        "instagram_fonte": "busca",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=L%C3%A1+em+Casa+Cacoal",
+        "osm": "https://www.openstreetmap.org/node/7007104987"
+      },
+      "dominios": [
+        {
+          "dominio": "laemcasa.com.br",
+          "registrado": true,
+          "dns": true,
+          "rdap": true,
+          "site_ativo": false,
+          "status": "registrado"
+        },
+        {
+          "dominio": "laemcasa.com",
+          "registrado": true,
+          "dns": true,
+          "rdap": true,
+          "site_ativo": true,
+          "status": "registrado"
+        }
+      ],
+      "site_mesmo_nome": true,
+      "tags_osm": {
+        "amenity": "restaurant",
+        "cuisine": "burger;friture;brazilian;coffee_shop;ice_cream;breakfast;diner",
+        "internet_access": "wlan",
+        "name": "Lá em Casa",
+        "opening_hours": "Mo-Su 06:00-21:00"
+      }
+    },
+    {
+      "id": "node/7149372586",
+      "nome": "Lanchonete Palmares",
+      "categoria": "amenity=fast_food",
+      "endereco": null,
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.3855068,
+      "lon": -61.7468816,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Lanchonete+Palmares",
+        "instagram_fonte": "busca",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Lanchonete+Palmares+Cacoal",
+        "osm": "https://www.openstreetmap.org/node/7149372586"
+      },
+      "dominios": [
+        {
+          "dominio": "lanchonetepalmares.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "lanchonetepalmares.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": {
+        "amenity": "fast_food",
+        "cuisine": "diner;regional;breakfast",
+        "internet_access": "wlan",
+        "name": "Lanchonete Palmares",
+        "name:en": "Palmares Diner",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "id": "node/10172367310",
+      "nome": "Equilibre",
+      "categoria": "amenity=restaurant",
+      "endereco": "Avenida Nações Unidas 2444, Princesa Isabel, Cacoal",
+      "telefone": "+55 69 98476 0443",
+      "telefone_e164": "+5569984760443",
+      "lat": -11.4403113,
+      "lon": -61.4411198,
+      "tem_site": true,
+      "site": "https://equilibreoficial.com.br/",
+      "links": {
+        "whatsapp": "https://wa.me/5569984760443",
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Equilibre",
+        "instagram_fonte": "busca",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Equilibre+Cacoal",
+        "osm": "https://www.openstreetmap.org/node/10172367310"
+      },
+      "dominios": [],
+      "site_mesmo_nome": false,
+      "tags_osm": {
+        "addr:city": "Cacoal",
+        "addr:housenumber": "2444",
+        "addr:postcode": "76964068",
+        "addr:street": "Avenida Nações Unidas",
+        "addr:suburb": "Princesa Isabel",
+        "amenity": "restaurant",
+        "name": "Equilibre",
+        "phone": "+55 69 98476 0443",
+        "website": "https://equilibreoficial.com.br/"
+      }
+    },
+    {
+      "id": "way/689392721",
+      "nome": "Denise Marmitex / Restaurante Ponto Certo",
+      "categoria": "amenity=restaurant",
+      "endereco": "Rua Ernesto de lazari 3664, Teixeirão, Cacoal",
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.4294138,
+      "lon": -61.4331247,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Denise+Marmitex+%2F+Restaurante+Ponto+Certo",
+        "instagram_fonte": "busca",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Denise+Marmitex+%2F+Restaurante+Ponto+Certo+Cacoal",
+        "osm": "https://www.openstreetmap.org/way/689392721"
+      },
+      "dominios": [
+        {
+          "dominio": "denisemarmitexrestaurantepontocerto.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "denisemarmitexrestaurantepontocerto.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": {
+        "addr:city": "Cacoal",
+        "addr:housenumber": "3664",
+        "addr:postcode": "76965-588",
+        "addr:street": "Rua Ernesto de lazari",
+        "addr:suburb": "Teixeirão",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "brazilian;marmitex",
+        "name": "Denise Marmitex / Restaurante Ponto Certo",
+        "outdoor_seating": "yes"
+      }
+    }
+  ]
+}

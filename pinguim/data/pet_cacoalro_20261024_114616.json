@@ -1,0 +1,65 @@
+{
+  "schema": "pinguim/v1",
+  "gerado_em": "2026-10-24T11:46:16.249769-04:00",
+  "consulta": {
+    "termo": "pet",
+    "cidade": "Cacoal, RO",
+    "cidade_resolvida": "Cacoal, Rondônia, Região Norte, Brasil",
+    "bbox": [
+      -11.6193094,
+      -10.987,
+      -61.7965011,
+      -60.9999705
+    ],
+    "tags_osm": null
+  },
+  "resumo": {
+    "total": 1,
+    "com_site": 0,
+    "sem_site": 1
+  },
+  "resultados": [
+    {
+      "id": "way/372437122",
+      "nome": "Rua Petrônio Camargo",
+      "categoria": null,
+      "endereco": null,
+      "telefone": null,
+      "telefone_e164": null,
+      "lat": -11.5403299,
+      "lon": -61.0181652,
+      "tem_site": false,
+      "site": null,
+      "links": {
+        "whatsapp": null,
+        "instagram": "https://www.instagram.com/explore/search/keyword/?q=Rua+Petr%C3%B4nio+Camargo",
+        "instagram_fonte": "busca",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Rua+Petr%C3%B4nio+Camargo+Cacoal",
+        "osm": "https://www.openstreetmap.org/way/372437122"
+      },
+      "dominios": [
+        {
+          "dominio": "ruapetroniocamargo.com.br",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        },
+        {
+          "dominio": "ruapetroniocamargo.com",
+          "registrado": false,
+          "dns": true,
+          "rdap": false,
+          "site_ativo": false,
+          "status": "provavelmente livre"
+        }
+      ],
+      "site_mesmo_nome": false,
+      "tags_osm": {
+        "highway": "residential",
+        "name": "Rua Petrônio Camargo"
+      }
+    }
+  ]
+}

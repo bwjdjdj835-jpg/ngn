@@ -1,0 +1,26 @@
+{
+  "schema": "pinguim/v1",
+  "gerado_em": "2026-10-24T11:43:09.288449-04:00",
+  "consulta": {
+    "termo": "pet shop",
+    "cidade": "Cacoal, RO",
+    "cidade_resolvida": "Cacoal, Rondônia, Região Norte, Brasil",
+    "bbox": [
+      -11.6193094,
+      -10.987,
+      -61.7965011,
+      -60.9999705
+    ],
+    "tags_osm": [
+      "shop=pet",
+      "amenity=veterinary",
+      "shop=pet_grooming"
+    ]
+  },
+  "resumo": {
+    "total": 0,
+    "com_site": 0,
+    "sem_site": 0
+  },
+  "resultados": []
+}
